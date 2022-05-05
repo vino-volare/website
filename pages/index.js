@@ -11,6 +11,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Image src="/images/ばってん星川 完成品 色収差ver.png" alt="Twitter Logo" layout="fill" objectFit="cover" className={styles.bg} />
+
       <main className={styles.main}>
         <h1 className={styles.title}>
           <span className={styles.titleColor}>Vino</span> Volare
@@ -21,8 +23,8 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" style={{ position: 'relative', width: 100, height: 100 }} className={styles.socialLogo}>
-            <Image src="/images/Twitter.svg" alt="Twitter Logo" layout="fill" objectFit="contain" />
+          <a href="https://nextjs.org/docs" className={styles.socialLogo}>
+            <Image src="/images/Twitter.svg" alt="Twitter Logo" width={100} height={100} />
           </a>
 
           <a href="https://nextjs.org/docs" style={{ position: 'relative', width: 100, height: 100 }} className={styles.socialLogo}>
